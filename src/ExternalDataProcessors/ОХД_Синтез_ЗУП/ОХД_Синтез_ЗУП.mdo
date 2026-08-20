@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="795a7675-bbeb-4eb7-b8ea-b56cfb1c6a66">
+  <producedTypes>
+    <objectType typeId="b4e4644c-3823-4913-a493-39bd22837daf" valueTypeId="5db6ab8b-5743-4f54-95a4-e9faa441e850"/>
+  </producedTypes>
+  <name>ОХД_Синтез_ЗУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОХД синтез ЗУП</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="68f96107-01fb-45c4-a302-ee53580d36d3"/>
+  <defaultForm>ExternalDataProcessor.ОХД_Синтез_ЗУП.Form.Форма</defaultForm>
+  <attributes uuid="db79d19f-1339-412c-93ef-c7e261afab78">
+    <name>НеРегистрироватьВыполнениеЗаданияВРегистрВыполненных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать выполнение задания в регистр выполненных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a5c6a1c4-3791-41d6-a481-fb4adc8b23d2">
+    <name>ИгнорироватьПроверкиДнейРаботыОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать проверки дней работы обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af118631-38fe-446e-a94d-66bfd1e99eb0">
+    <name>НеРегистрироватьВыполнениеРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать выполнение рассылки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7b9a3d0-1ab5-4b2b-a823-0ca101670c73">
+    <name>ВыполнитьТестовуюРассылку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить тестовую рассылку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="48267c70-e2b2-4c65-a9c2-5901bf087022">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2dca210b-1a36-4004-9a9a-1c823f9a6a0e">
+    <name>ХД_ВыходСотрудника_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х д выход сотрудника HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="1cdf367e-0854-4932-a742-ff7de0cd9275">
+    <name>ХД_ДниРождения_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х д дни рождения HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="15e42b60-d29b-481b-9213-000de769dc86">
+    <name>ХД_ИспытательныйСрок_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х д испытательный срок HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="e98591bd-3ce5-4564-9493-90efb137b87a">
+    <name>ХД_ПовышениеЗПИзОффера_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХД повышение ЗП из оффера HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="5c2b13da-ad22-4f8f-9369-6b56f50602db">
+    <name>ХД_PerformanceBonusИзОффера_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХД performance bonus из оффера HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="687926ad-7b25-4ab4-9a9c-cf9705e6d594">
+    <name>ХД_SignOnBonusИзОффера_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХД sign-on bonus из оффера HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
